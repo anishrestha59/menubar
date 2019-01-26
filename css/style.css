@@ -20,11 +20,13 @@
     display:none;
     width:150px;
 }
+
 .menu-list li{
     list-style-type:none;
-
 }
+
 .navbar-list li ul li:hover{
     background-color:#595a5b;
     display:block;
+    color:white;
 }
