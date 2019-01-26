@@ -1,0 +1,30 @@
+.navbar-list{
+    float:left;
+    list-style-type:none;
+}
+.navbar-list li a{
+    text-decoration:none;
+    color:white;
+    font-family:arial;
+    font-size:2rem;
+}
+
+.navbar-list li:hover{
+    background-color:#373738;
+}
+.menu-list{
+    position:abosolute;
+    background-color:#373738;
+    margin-top:15px;
+    margin-left:-15px;
+    display:none;
+    width:150px;
+}
+.menu-list li{
+    list-style-type:none;
+
+}
+.navbar-list li ul li:hover{
+    background-color:#595a5b;
+    display:block;
+}
